@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;600&display=swap");
+* {
+	margin: 0;
+}
+body {
+	font-family: "Source Sans Pro", sans-serif;
+	color: var(--primary-color);
+}
+:root {
+	--primary-color: #4b5563;
+}
+.navigation {
+	background-color: var(--primary-color);
+	color: white;
+	text-align: center;
+	padding: 1rem;
+}
+.navigation h1 {
+	font-size: xx-large;
+}
+.list-non-bullet {
+	list-style: none;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+}
+.list-item-inline {
+	display: inline;
+	padding: 1rem;
+}
+.link {
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	border: 1px solid black;
+	border-radius: 0.5rem;
+	color: white;
+	font-weight: bold;
+}
+.link-active {
+	color: black;
+	background-color: white;
+}
+.heading {
+	text-align: center;
+	margin: 1rem;
+}
+label {
+	font-size: larger;
+	font-weight: bold;
+	margin-top: 1rem;
+}
+label,
+input {
+	display: block;
+	text-align: center;
+}
+input {
+	margin: 0rem auto;
+	padding: 0.4rem;
+}
+.question-container {
+	margin-bottom: 2rem;
+	text-align: center;
+}
+.question-container p {
+	font-size: larger;
+	font-weight: bold;
+	text-align: center;
+}
+.question-container input {
+	text-align: center;
+	display: inline-block;
+	margin-right: 0.3rem;
+	cursor: pointer;
+}
+.question-container label {
+	display: inline-block;
+	font-weight: 500;
+	margin-right: 1rem;
+}
+#submit-button {
+	padding: 1rem;
+	display: block;
+	margin: 1rem auto;
+}
+#submit-button:hover {
+	cursor: pointer;
+	background-color: var(--primary-color);
+	color: white;
+	border: none;
+}
+#output {
+	text-align: center;
+	font-size: x-large;
+	font-weight: bold;
+	margin-bottom: 10rem;
+}
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	/* height: 6rem; */
+	background-color: var(--primary-color);
+	color: white;
+	text-align: center;
+	padding: 0.5rem;
+}
+.logo {
+	width: 2rem;
+}
