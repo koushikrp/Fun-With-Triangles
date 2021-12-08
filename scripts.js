@@ -14,6 +14,10 @@ function isTriangle() {
 	let angle1 = Number(inputs[0].value);
 	let angle2 = Number(inputs[1].value);
 	let angle3 = Number(inputs[2].value);
+	if (angle1 == 0 || angle2 == 0 || angle3 == 0) {
+		output1.innerText = "Angle cannot be Zero. Please Enter Positive values.";
+		return;
+	}
 	if (angle1 < 0 || angle2 < 0 || angle3 < 0) {
 		output1.innerText = "Angles cannot be Negative. Please Enter Positive values";
 		return;
